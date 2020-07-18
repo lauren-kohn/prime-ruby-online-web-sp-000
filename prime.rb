@@ -1,3 +1,3 @@
 def prime?(integer)
-  (2..integer).any? {|int| int % 
+  (2..integer).none? {|int| int % 
 end 
