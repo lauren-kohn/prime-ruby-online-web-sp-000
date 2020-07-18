@@ -3,7 +3,7 @@ def prime?(num)
     false
   else
     n = 2
-    while n < num && num > 2
+    while n < num 
       return true if num % n != 0
       n += 1
     end
