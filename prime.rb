@@ -1,3 +1,3 @@
-def prime?(integer)
-  (2..n-1).none? {|int| integer % int == 0}
+def prime?(number)
+  (2..number-1).none? {|int| number % int == 0}
 end 
