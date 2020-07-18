@@ -1,9 +1,8 @@
 def prime?(number)
-  if number <= 1
-    false
-  elsif 
-    (2..(number-1)).none? do |int| 
-      number % int == 0
-    end
+ n = 2
+  while n < num
+    return false if num % n == 0
+    n += 1
   end
-end 
+  true
+end
